@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/7311920/pexels-photo-7311920.jpeg?cs=srgb&dl=pexels-alberlan-barros-7311920.jpg&fm=jpg')
+}
+
+
+.chat-window {
+  background-color: rgba(31, 31, 46, 0.7);
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  
+}
+
+.messengers {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+
+/* chat containers */
+.darth-container {
+  border: 2px solid #000000;
+  background-color: #5000c7;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 700px;
+
+}
+
+
+.yoda-container {
+  border-color: #ccc;
+  background-color: #00a372;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: right;
+   max-width: 700px;
+}
+
+/* avatar images */
+.darth-container img {
+  border-radius: 50%;
+  height: 50px;
+  margin: 10px;
+  float: left;
+  max-width: 60px;
+}
+
+.yoda-container img {
+  border-radius: 50%;
+  height: 50px;
+  margin: 10px;
+  float: right;
+  max-width: 60px;
+}
+
+
+/* inputs and buttons */
+.sender-darth {
+  background-color: #5000c7;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.sender-yoda {
+  background-color: #00a372;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.darth-container::after {
+  content: "";
+  clear: left;
+  display: table;
+
+}
+
+.yoda-container::after {
+  content: "";
+  clear: right;
+  display: table;
+}
+
+.sender-title-darth {
+  padding: 10px;
+}
+
+.sender-title-yoda {
+  padding: 10px;
+}
+
+.darth-input {
+  margin: 10px;
+}
+
+.yoda-input {
+  margin: 10px;
+}
+
