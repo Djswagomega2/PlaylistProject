@@ -1,37 +1,54 @@
-# FLW 01.5 // Code Along & Solo // Chat App
+<p>This is your class portfolio! The portfolio includes information about the company, class, Code Nation, and links to all students' portfolios (as they get completed).</p>
+<p>We will revisit this portfolio at times throughout the year to update and it is a great one-stop-shop for your program information.</p>
 
-Why on earth (or space) is Darth sliding into Yoda's dms???
-
-We need your JavaScript expertise to get this Chat App fully working to see how this conversation turns out!
-
-## Code Along
-
-#### As a class, declare variables for the following:
-1. [X] The darth send button
-2. [X] The yoda send button
-
-## Code It Solo
-
-#### Declare variables for the following:
-
-3. [X] The darth input
-4. [] The yoda input
-5. [ ] The chat window
-
-#### Next, we need to make this app interactive for our Darth Vader messages:
-
-6. [ ] Create an onclick event for the darth button
-7. [ ] Declare a variable for darth's message that saves the value of the darth input.
-8. [ ] Declare a variable that saves the message you want to append. Using string interpolation, make sure the darth message and darthImage variable are inside a div with the class name "darth-container".
-9. [ ] Add(append) the message to the chat window. Use the position beforeend.
+# Class Portfolio README
 
 
-#### Let's do the same for our Yoda messages:
+## Set up
 
-10. [ ] Create an onclick event for the yoda button.
-11. [ ] Declare a variable for yoda's message that saves the value of the yoda input.
-12. [ ] Declare a variable that saves the message you want to append. Using string interpolation, make sure the yoda message and yodaImage variable are inside a div with the class name "yoda-container".
-13. Add(append) the message to the chat window. Use the position beforeend.
+- [x] Go to the repository.
+
+- [ ] Fork this repository to your GitHub account.
 
 
-#### Finish the convo between Darth and Yoda!
+## HTML
+
+- [ ] Write your biography on your About Me page.
+- [ ] On the home page (index.html):
+  - [ ] Replace the placeholder image with a company logo/image.
+  - [ ] Add a link to your Fellowship Agenda
+- [ ] On the contact page, update the page with your program information.
+- [ ] Add your contact information to your Contact page, including your:
+    - [ ] GitHub account
+    - [ ] Email address
+    - [ ] LinkedIn (if you already have one)
+    - [ ] Resume
+
+## CSS
+
+- [ ] Choose 2-4 colors for your theme and add them as font or background colors.
+- [ ] Add flexbox to the nav bar.
+- [ ] Style your nav bar so the links change color/style when your hover over them.
+- [ ] Add at least 1 Google Font - either for the headers or paragraphs. Or both!
+- [ ] Add a border to the home page images
+
+## Wrap-Up
+
+- [ ] Push your changes to GitHub.
+
+
+
+## Extensions
+
+- [ ] Add a unordered or ordered list of your accomplishments or favorite things to your About Me page.
+- [ ] Make sure all your external links open up into new tabs.
+- [ ] Add a button that slides information up and down when clicked.
+- [ ] Create a link that pops open the email browser with your email address in the to: field.
+
+
+## References/Tools
+
+* [Fellowship Reference Table](https://docs.google.com/document/d/1qrY2OC-6S04oOXZlYmXja7lmKBmdApR-HXJkhfd67e8/edit)
+* [W3Schools] (https://www.w3schools.com/)
+* [MDN web docs] (https://developer.mozilla.org/en-US/)
+* [Introduction to Bootstrap] (https://getbootstrap.com/docs/4.1/getting-started/introduction/)
