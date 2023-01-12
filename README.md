@@ -1,54 +1,81 @@
-<p>This is your class portfolio! The portfolio includes information about the company, class, Code Nation, and links to all students' portfolios (as they get completed).</p>
-<p>We will revisit this portfolio at times throughout the year to update and it is a great one-stop-shop for your program information.</p>
+# Unit 2 Project // Playlist [Medium]
 
-# Class Portfolio README
+## Overview:
 
+In this unit, coders will create a playlist. The playlist will display a list of information about different songs with images and links to play the songs. 
 
-## Set up
+To create this project, coders will create arrays to hold song information, use a for or forEach loop to iterate over the arrays, and display data to the screen. 
 
-- [x] Go to the repository.
-
-- [ ] Fork this repository to your GitHub account.
+They will use .push to add new songs to their playlist. Then, students will refactor their project to using objects instead of arrays to hold their data.
 
 
-## HTML
-
-- [ ] Write your biography on your About Me page.
-- [ ] On the home page (index.html):
-  - [ ] Replace the placeholder image with a company logo/image.
-  - [ ] Add a link to your Fellowship Agenda
-- [ ] On the contact page, update the page with your program information.
-- [ ] Add your contact information to your Contact page, including your:
-    - [ ] GitHub account
-    - [ ] Email address
-    - [ ] LinkedIn (if you already have one)
-    - [ ] Resume
-
-## CSS
-
-- [ ] Choose 2-4 colors for your theme and add them as font or background colors.
-- [ ] Add flexbox to the nav bar.
-- [ ] Style your nav bar so the links change color/style when your hover over them.
-- [ ] Add at least 1 Google Font - either for the headers or paragraphs. Or both!
-- [ ] Add a border to the home page images
-
-## Wrap-Up
-
-- [ ] Push your changes to GitHub.
+## Set-Up
+1. [X] Fork your own copy of the repl.
+2. [X] Double-check that you are signed in with your GitHub account.
 
 
+## Planning
+3. [X] Complete the planning document.
+   - [X] Look over Inspiration and Ideas
+   - [X] Fill out the Brainstorm section.
+   - [X] Fill out the Song Data section.
+4. [X] Read through the HTML starter code to understand the organization and class names given.
+5. [X] Read through the JavaScript starter code to determine where each given function is declared and where each given function is called.
+6. [x] Declare variables for your display divs: the image url, song name, artist, and song link. Go back to the HTML to check that you are using the correct class names.
 
-## Extensions
 
-- [ ] Add a unordered or ordered list of your accomplishments or favorite things to your About Me page.
-- [ ] Make sure all your external links open up into new tabs.
-- [ ] Add a button that slides information up and down when clicked.
-- [ ] Create a link that pops open the email browser with your email address in the to: field.
+## JavaScript: Storing Song Data
+
+7. [ ] Create and populate an array to store your image urls. Create three more arrays. One to store your song names, one for the artists, and a last one for the song links.
+
+
+## JavaScript: Loop and Display Data
+
+8. [ ] Loop through your images array and display the images to your songs in the correct div. Create three more loops. One for the song names, one for the artists, and a last one for the song links.
+
+What to display your song data in:
+
+   - images: `<img>` tag inside a `<p>` tag
+   - song names: `<p>` tag
+   - artist: `<p>` tag
+   - song links: `<a>` tag inside a `<p>` tag
+
+**Note**: There is a function called `emptyDisplay`. Determine where this should be placed in your code. Where does it make sense to call this function?
+
+
+## JavaScript: Add Song Data
+
+9. [ ] Declare a variable to save the user input of the image url. Declare three more variables that save user input: One for the song names, one for the artists, and a last one for the song links.
+   
+10. [ ] Use `.push()` to add each input value to the correct array.
+
+
+
+## JavaScript: Refactor Arrays to Objects
+
+11. [ ] Comment out the arrays data.
+12. [ ] Create an object for each of your songs.
+13. [ ] Inside each object, add key/value pairs to store the image url, song name, artist, and song link.
+14. [ ] Create an array that stores all of the objects.
+
+## JavaScript: Refactor Loops to Display Info
+
+15. [ ] Update your `addSongInfo` function so the input values are saved in as values in a new object.
+16. [ ] Update your `.push()` so the input object is added to your array of objects.
+17. [ ] Update your loops based on your new array of objects.
+
+
+## Project Extensions:
+
+- [ ] Add in your own CSS to personalize your project.
+- [ ] Use .length to display how many songs are on your list.
+- [ ] Add a clear or delete button to clear songs on your list.
+- [ ] Refactor your project further by utilizing functions to simplify your code.
+- [ ] Add a shuffle button and functionality.
 
 
 ## References/Tools
 
-* [Fellowship Reference Table](https://docs.google.com/document/d/1qrY2OC-6S04oOXZlYmXja7lmKBmdApR-HXJkhfd67e8/edit)
-* [W3Schools] (https://www.w3schools.com/)
-* [MDN web docs] (https://developer.mozilla.org/en-US/)
-* [Introduction to Bootstrap] (https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+- [Advanced Reference Table](https://docs.google.com/document/d/1SElvLDvtVOoYZJyR5XbCQJWbSTxyChDiQkz7n3c63Go/preview)
+- [How Jquery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
+- [JQuery Events](http://api.jquery.com/category/events/)

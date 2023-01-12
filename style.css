@@ -1,47 +1,85 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: black;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
-
-.companies {
-  display: flex;
-  justify-content: space-around;
-}
-
-.home {
-  text-align: center;
-}
-
-.student {
-  border: 1px solid white;
-  width: 300px;
-  text-align: center;
-}
-
-.student img {
-  width: 200px;
-}
-
-.students{
-  display: flex;
-  justify-content: space-around;
 }
 
 h1 {
-  color: #fee975;
+  text-align: center;
 }
 
-img {
-  width: 400px;
+.display {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 25px
 }
 
-a {
-  color: #0080ff;
+.heading {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  background-color: rgba(76, 175, 80, 0.3)
 }
 
-a:hover {
-  color: #17d3ff;
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.display-image img {
+  display: block;
+  height: 100px;
+  width: auto;
+  
+}
+
+.display-song p {
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  
+}
+
+.display-artist p {
+  font-size: 18px;
+  height: 100px;
+  
+}
+
+
+.display-link a {
+  display: block;
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  
+}
+
+.form {
+  width: 75%;
+  margin: 0 auto 20px auto;
+  font-size: 18px;
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: black;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: black;
+}
+
+body {
+  background: url(https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg);
+color: white;
+}
+
+h4{
+  color: white;
 }

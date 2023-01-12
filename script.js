@@ -1,54 +1,99 @@
-let darthImage = `<img src="https://comic-cons.xyz/wp-content/uploads/Star-Wars-avatar-icon-Darth-Vader.png">`;
-let yodaImage = `<img src="https://i.pinimg.com/originals/00/5d/82/005d82a61b8bf5a25e426ab71e8bd360.jpg">`;
-
-// task 1: declare a variable to save the darth send button
-let darthButton = document.querySelector(".darth-send-button")
-// task 2: declare a variable to save the yoda send button
-let yodaButton = document.querySelector(".yoda-send-button")
-// task 3: declare a variable to save the darth input
-let darthInput = document.querySelector(".darth-input")
-// task 4: declare a variable to save the yoda input
-let yodaInput = document.querySelector(".yoda-input")
-// task 5: declare a variable to save the chat window
-let chatSave = document.querySelector(".chat-window")
-let darthWin = document.querySelector(".darth-container")
-let yodaWin = document.querySelector(".yoda-container")
+// task 5: read through the JavaScript starter code to determine where each given function is declared and where each given function is called.
 
 
+// input variables
+let image = document.querySelector(".image");
+let songName = document.querySelector(".song-name");
+let artist = document.querySelector(".artist");
+let songLink = document.querySelector(".song-link");
+
+// button variable
+let add = document.querySelector(".add");
 
 
+// task 6: declare variables for your display divs: the image url, song name, artist, and song link. Go back to the HTML to check that you are using the correct class names.
 
-// task 6: create an onclick event for the darth button
-
-
-  // task 7: declare a variable for darth's message that saves the value of the darth input
-
-
-  // task 8: declare a variable that saves the message you want to append. Using string interpolation, make sure the darth message and darthImage variable are inside a div with the class name "darth-container".
-
-
-  // task 9: add(append) the message to the chat window. Use the position beforeend. Don't forget to close off your click event!
-
-darthButton.onclick = (function (){  
- let darthEnter = darthInput.value;
- darthWin.insertAdjacentHTML("beforeEnd", darthEnter);
-
-});
+let display = document.querySelector(".display");
+let displaySong = document.querySelector(".display-song");
+let displayArtist = document.querySelector(".display-artist");
+let displayImage = document.querySelector(".display-image");
+let displayLink = document.querySelector(".display-link");
 
 
 
-// task 10: create an onclick event for the yoda button
+// task 7: create and populate an array to store your image urls. Create three more arrays. One to store your song names, one for the artists, and a last one for the song links.
+let imageurl = ["https://i1.sndcdn.com/artworks-000106137072-hbujw9-t500x500.jpg","https://static.wikia.nocookie.net/w__/images/4/44/GuestC.png/revision/latest/scale-to-width-down/536?cb=20210528200632&path-prefix=wiisports","https://atlas-content1-cdn.pixelsquid.com/assets_v2/244/2448687558553507371/jpeg-600/G03.jpg", "https://i.ytimg.com/vi/D27DwQlAEp0/maxresdefault.jpg", "https://i.ytimg.com/vi/KYxsNJYgrgI/mqdefault.jpg"]
+
+let songName = []
+let artist = []
+let songLink = []
 
 
-  // task 11: declare a variable for yoda's message that saves the value of the yoda input.
-
-  // task 12: declare a variable that saves the message you want to append. Using string interpolation, make sure the yoda message and yodaImage variable are inside a div with the class name "yoda-container".
 
 
-  // task 13: add(append) the message to the chat window. Use the position beforeend. Don't forget to close off your click event!
 
-yodaButton.onclick = (function (){  
- let yodaEnter = yodaInput.value;
- yodaWin.insertAdjacentHTML("beforeEnd", yodaEnter);
+//REFACTOR ARRAYS DAY 
+// task 11: comment out the arrays data.
+// task 12: create an object for each of your songs.
+// task 13: inside each object, add key/value pairs to store the image url, song name, artist, and song link.
+// task 14: create an array that stores all of the objects.
 
-});
+
+
+//REFACTOR LOOPS DAY 
+// task 15: update your `addSongInfo` function so the input values are saved in as values in a new object.
+// task 16: update your `.push()` so the input object is added to your array of objects.
+// task 17: update your loops based on your new array of objects.
+
+
+
+
+
+function addSongInfo() {
+
+// task 9: declare a variable to save the user input of the image url. Declare three more variables that save user input: One for the song names, one for the artists, and a last one for the song links.
+
+
+// task 10: use `.push()` to add each input value to the correct array.
+
+}
+
+
+
+
+/******** this function empties the display divs each time the button is clicked so that your playlist does not repeatedly add the data too many times. Where should this function be placed???********/
+function emptyDisplay() {
+  displayImage.innerHTML = "";
+  displaySong.innerHTML = "";
+  displayArtist.innerHTML = "";
+  displayLink.innerHTML = "";
+}
+
+
+
+
+function displaySongInfo() {
+
+// task 8: loop through your images array and display the images to your songs in the correct div. Create three more loops. One for the song names, one for the artists, and a last one for the song links.
+for (let i = 0; i < imageurl.length; i++)
+{
+  //make the image element
+  //set image element source to array value
+  //append child to the imagedisplay div
+
+  
+}
+
+
+
+
+
+
+// click event to add and display songs
+add.onclick = function() {
+  addSongInfo();
+  displaySongInfo();
+};
+
+// function call to display stored songs
+displaySongInfo();
