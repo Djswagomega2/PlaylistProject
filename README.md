@@ -1,4 +1,4 @@
-# Unit 2 Project // Playlist [Medium]
+# Unit 2 Project // Playlist
 
 ## Overview:
 
